@@ -30,7 +30,6 @@ header h1{
 
 header p{
     font-size: 1.1em;
-    text-align: center;
 }
 
 a{
@@ -47,23 +46,16 @@ section{
     padding: 5vh 40px 10vh 40px;
     font-size: 3.5vw;
     line-height: 2em;
-    
+
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 section > p{
     font-family: 'Sriracha', cursive;
     margin-top: 5vh;
-}
-
-#bkg01{
-    background-image: url('images/background001.jpg');
-    
-}
-#bkg02{
-    background-image: url('images/background002.jpg');
 }
 
 section.img > p{
@@ -73,7 +65,17 @@ section.img > p{
     text-shadow: 1px 1px black;
     display: inline-block;
 }
+section.img{
+    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.308);
+}
 
+#bkg01{
+    background-image: url('images/background001.jpg');
+    
+}
+#bkg02{
+    background-image: url('images/background002.jpg');
+}
 
 footer{
     padding: 10px;
