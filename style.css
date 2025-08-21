@@ -67,7 +67,7 @@ section.img > p{
 }
 section.img{
     background-color: rgb(46, 46, 46);
-    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.308);
+    box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.308);
 }
 
 #bkg01{
