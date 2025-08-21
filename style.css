@@ -47,6 +47,11 @@ section{
     padding: 5vh 40px 10vh 40px;
     font-size: 3.5vw;
     line-height: 2em;
+    
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 section > p{
     font-family: 'Sriracha', cursive;
@@ -55,11 +60,10 @@ section > p{
 
 #bkg01{
     background-image: url('images/background001.jpg');
-    background-position: right center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     
+}
+#bkg02{
+    background-image: url('images/background002.jpg');
 }
 
 section.img > p{
@@ -70,13 +74,6 @@ section.img > p{
     display: inline-block;
 }
 
-#bkg02{
-    background-image: url('images/background002.jpg');
-    background-position: right center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 footer{
     padding: 10px;
